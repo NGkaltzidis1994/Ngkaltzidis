@@ -1,0 +1,357 @@
+*{
+
+    box-sizing: border-box;
+}
+.navbar
+{
+    background-color: grey;
+    display: flex;
+    justify-content: left;
+}
+.navbar a
+{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 28px 28px;
+}
+.active
+{
+    background-color: #DB53FB;
+}
+.navbar a:hover
+{
+    background-color: white;
+    color:black;
+}
+#toggle
+{
+    display: none;
+}
+.togglearea
+{
+    background-color: #DB53FB;
+    color: white;
+    padding:10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.togglearea label
+{
+    background-color: yellow;
+    height: 45px;
+    width: 50px;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.togglearea label span
+{
+    background-color: black;
+    height: 4px;
+    width: 70%;
+    margin: 2px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .navbar {
+        flex-direction: column;
+        display: none;
+    }
+
+    #toggle:checked + .navbar {
+        display: flex;
+    }
+
+    .togglearea {
+        display: flex;
+        padding: 20px;
+    }
+
+    .featureArtist {
+        margin: 50px 8px 100px 8px;
+        font-family: sans-serif;
+
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 20px;
+        background-color: lavenderblush;
+
+    }
+
+    #artistText
+    {
+        text-align: justify;
+    }
+
+    .albumsPictures::after
+    {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    *:after {
+        box-sizing: border-box;
+    }
+
+}
+
+.lastBox
+{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+
+.lastBox p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#Mon, #NatG, #Ludo, #DE, #RI, #ES {
+    width: 250px;
+    height: 240px;
+    margin: 10px;
+    border: 5px solid black;
+}
+
+#imageF {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#center
+{
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    font-weight: bold;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+#Welcome
+{
+    color: blanchedalmond;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-decoration: underline;
+    text-align: center;
+    border: 4px solid red;
+    border-radius: 12px;
+}
+
+#WelT
+{
+    background-color: black;
+    font-family: sans-serif;
+    border: 2px solid #DB53FB;
+    font-size: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    color: blanchedalmond;
+
+
+
+}
+#OurApp
+{
+    color: #DB53FB;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+#ArtBen
+{
+    color: #DB53FB;
+    font-family: sans-serif;
+    text-align: right;
+    text-decoration: underline;
+}
+#Offers
+{
+    color: #DB53FB;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-align: left;
+}
+.SilverL
+{
+    width: 65%;
+    padding-left: 35%;
+    padding-top: 5%;
+
+
+}
+
+.levelImages
+{
+    border: 2px solid #DB53FB;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 16px;
+    background-color: maroon;
+}
+h3 {
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.disc
+{
+    font-family: sans-serif;
+    text-align: center;
+}
+.prize
+{
+    font-family: sans-serif;
+    text-align: center;
+}
+.button {
+
+    outline: 0;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    background-color: #DB53FB;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    width: 100%;
+}
+#alb
+{
+    text-align: left;
+    padding: 25px;
+}
+input[type=text], .searchB button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+    color: black;
+    font-size: 30px;
+
+}
+#sub
+{
+    float: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.muIM {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+
+}
+.MusicG
+{
+    background-color: black;
+    font-family: sans-serif;
+    border: 2px solid #DB53FB;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    color: blanchedalmond;
+
+
+}
+
+.Category
+{
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #DB53FB;
+    padding: 20px 20px 20px 20px;
+}
+.artistArtist
+{
+
+    font-size: 15px;
+    padding: 2px;
+}
+.artistAlbum
+{
+
+    font-size: 15px;
+}
+#compL {
+    height: 85px;
+    width: 90px;
+    float: left;
+    background-color: #DB53FB;
+    color: #DB53FB;
+    padding:10px;
+    display: flex;
+
+}
+
+
+
