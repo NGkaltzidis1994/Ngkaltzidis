@@ -309,6 +309,7 @@ input[type=text], .searchB button {
     float: left;
     margin-right: 30px;
 
+
 }
 .MusicG
 {
@@ -318,6 +319,7 @@ input[type=text], .searchB button {
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 80px;
+    margin-bottom: 40px;
     color: blanchedalmond;
 
 
